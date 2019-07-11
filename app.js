@@ -9,6 +9,7 @@ const adjectiv2eResult = document.getElementById('adjective-result-2');
 const numberResult = document.getElementById('number-result');
 const verbResult = document.getElementById('verb-result-1');
 const nounResult = document.getElementById('noun-result');
+const story = document.getElementById('story');
 
 
 // Actions to get elements
