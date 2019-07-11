@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Play MadLibs!</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <h1>Let's Play MadLibs!</h1>
+
+<main>
+    <h2>Enter Your Clues</h2>
+
+    <p><label>
+        Adjective: <input id="adjective-1">
+    </label></p>
+    
+    <p><label>
+        Adjective: <input id="adjective-2">
+    </label></p>
+
+    <p><label>
+        Number: <input id="number">
+    </label></p>
+
+    <p><label>
+        Verb: <input id="verb-1">
+    </label></p>
+
+    <p><label>
+        Noun: <input id="noun">
+    </label></p>
+
+    <button onclick="doThing()">Create the MadLib!</button>
+
+    <h2>Read Your Story</h2>
+    <p>
+        Today I wrote my first <span id="adjective-result-1"></span> JavaScript app! It was a <span id="adjective-result-2"></span> 
+        that took <span id="number-result"></span> hours to do. Tomorrow I will <span id="verb-result-1"></span> my way through more JavaScript. 
+        I hope we learn how to make a <span id="noun-result"></span> at some point. 
+    
+    </p>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
