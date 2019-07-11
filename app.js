@@ -15,6 +15,7 @@ const story = document.getElementById('story');
 // Actions to get elements
 // eslint-disable-next-line no-unused-vars
 function doThing() {
+    story.classList.remove('hidden');
     adjectiveResult.textContent = adjective.value;
     adjectiv2eResult.textContent = adjectiv2e.value;
     numberResult.textContent = number.value;
